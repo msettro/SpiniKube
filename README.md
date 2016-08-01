@@ -1,8 +1,6 @@
 # Spinnaker + MiniKube = SpiniKube
 SpiniKube is a set of scripts and configurations that makes it easy to launch Spinnaker on a local kubernetes cluster.
 
-<img src="screenshots/schematic.png" width="200">
-
 The following items are setup on the cluster:
 * Spinnaker, configured to deploy applications to the local cluster
 
@@ -28,6 +26,10 @@ The following items are setup on the cluster:
 * Portus: UI for managing the registry
 * SpiniKube Start page: Handy UI with links to the above services
 ## Initial Setup Instructions
+
+### Architecture
+
+<img src="screenshots/schematic.png" width="300">
 
 ### Ensure dependencies are installed
 
